@@ -5,7 +5,8 @@ Feature: Vote Comment of a answer
   User wants to up/down vode a answer not posted by the user
 
   Background: 
-    Given user has opened a question
+    Given user is logged in
+    And has opened a question
     And the answer is not posted by the user
 
   Scenario Outline: User up-voted the answer

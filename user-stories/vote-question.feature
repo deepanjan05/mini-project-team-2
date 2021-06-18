@@ -5,7 +5,8 @@ Feature: Vote Question
   User wants to up/down vote a question not asked by the user
 
   Background: 
-    Given user has opened a question
+    Given user is logged in
+    And has opened a question
     And the question is not posted by the user
 
   Scenario Outline: User up-voted the question
