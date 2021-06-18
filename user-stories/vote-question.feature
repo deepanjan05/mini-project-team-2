@@ -1,6 +1,6 @@
 # Author: Deepanjan, Kanav, Praduman, Rizwan
 # Name: StackOverflow
-@AskQuestion @Sanity
+@VoteQuestion @Sanity
 Feature: Vote Question
   User wants to up/down vote a question not asked by the user
 

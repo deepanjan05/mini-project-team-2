@@ -1,6 +1,6 @@
 # Author: Deepanjan, Kanav, Praduman, Rizwan
 # Name: StackOverflow
-@AskQuestion @Sanity
+@VoteAnswer @Sanity
 Feature: Vote Comment of a answer
   User wants to up/down vode a answer not posted by the user
 
